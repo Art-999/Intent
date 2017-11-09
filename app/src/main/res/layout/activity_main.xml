@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.arturmusayelyan.intent.MainActivity">
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button_market"
+        android:layout_marginTop="105dp"
+        android:text="Launch Map" />
+
+    <Button
+        android:id="@+id/button_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_map"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Launch Market" />
+
+    <Button
+        android:id="@+id/button_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button_market"
+        android:layout_below="@+id/button_market"
+        android:layout_marginTop="36dp"
+        android:text="Launch EMAIL" />
+
+    <Button
+        android:id="@+id/button_send_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_map"
+        android:layout_below="@+id/button_email"
+        android:layout_marginTop="24dp"
+        android:text="Send Image" />
+
+    <Button
+        android:id="@+id/button_send_many_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button_send_image"
+        android:layout_below="@+id/button_send_image"
+        android:layout_marginTop="12dp"
+        android:text="Send Images" />
+
+    <Button
+        android:id="@+id/button_do_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button_send_image"
+        android:layout_marginTop="38dp"
+        android:text="Do Picture" />
+</RelativeLayout>
