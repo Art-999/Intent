@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     arrayList.add(uri);
                 }
                 intent = new Intent(Intent.ACTION_SEND_MULTIPLE);
-                intent.setType("image/");
+                intent.setType("image/*"); //sax formatnere
                 intent.putExtra(Intent.EXTRA_STREAM, arrayList);
                 chooser = Intent.createChooser(intent, "Send Multiple Images");
                 startActivity(chooser);
